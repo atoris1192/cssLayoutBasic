@@ -59,6 +59,30 @@ main {
     background-color: lightgreen;
     margin-left: 100px;
   }
+  ul#lessons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    li:not(:last-child) {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255 , .4);
+    }
+    h2, p {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+    }
+    .lesson_img {
+      float: left;
+      width: 50px;
+    }
+    .lesson_info {
+      float: right;
+      width: 440px;
+    }
+  }
 }
 footer {
   background-color: slategray;
