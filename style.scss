@@ -12,9 +12,14 @@ header {
 }
 main {
   background-color: skyblue;
+  #left, #right {
+    padding: 10px;
+    box-sizing: border-box;
+  }
   #left {
     background-color: limegreen;
-    width: 200px;
+    // width: 200px;
+    width: 180px;
     float: left;
   }
   #right {
@@ -26,11 +31,19 @@ main {
 footer {
   background-color: slategray;
   clear: both;
-
 }
 #eyecatch {
   background: url('http://lorempixel.com/640/340/sports/') no-repeat;
   height: 200px;
   background-size: cover;
   background-position: 50% 30%;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  overflow: hidden;
 }
