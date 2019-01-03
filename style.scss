@@ -34,6 +34,22 @@ header {
 }
 main {
   background-color: skyblue;
+  margin: 10px 0;
+  .product {
+    position: relative;
+    display: inline-block;
+  }
+  .price {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    // top: 0;
+    // right: 0;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 4px;
+  }
   #left {
     background-color: limegreen;
     float: left;
@@ -59,7 +75,6 @@ footer {
   display: block;
   clear: both;
 }
-
 .clear {
   overflow: hidden;
 }
