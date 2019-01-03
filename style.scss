@@ -16,3 +16,9 @@ main {
 footer {
   // background-color: slategray;
 }
+#eyecatch {
+  background: url('http://lorempixel.com/640/340/sports/') no-repeat;
+  height: 200px;
+  background-size: cover;
+  background-position: 50% 30%;
+}
