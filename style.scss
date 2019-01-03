@@ -12,20 +12,23 @@ header {
 }
 main {
   background-color: skyblue;
-  #left, #right {
-    padding: 10px;
-    box-sizing: border-box;
-  }
   #left {
     background-color: limegreen;
-    // width: 200px;
-    width: 180px;
     float: left;
+    width: 100px;
+    margin-right: 10px;
+  }
+  #center {
+    background-color: seagreen;
+    float: left;
+    // width: 300px;
+    width: 280px;
+    margin-right: 10px;
   }
   #right {
     background-color: lightgreen;
-    width: 300px;
-    float: right;
+    width: 100px;
+    float: left;
   }
 }
 footer {
