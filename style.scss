@@ -4,7 +4,6 @@ body {
 }
 .container {
   width: 500px;
-  // background-color: pink;
   margin: 0 auto;
 }
 header {
@@ -16,19 +15,10 @@ main {
     background-color: limegreen;
     float: left;
     width: 100px;
-    margin-right: 10px;
-  }
-  #center {
-    background-color: seagreen;
-    float: left;
-    // width: 300px;
-    width: 280px;
-    margin-right: 10px;
   }
   #right {
     background-color: lightgreen;
-    width: 100px;
-    float: left;
+    margin-left: 100px;
   }
 }
 footer {
